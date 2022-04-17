@@ -1,32 +1,42 @@
 body{
-    background-color: #E3F6F5;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #E3F6F5;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h1{
-    font-weight: bolder;
-    text-align: center;
-    font-size: 100px;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 100px;
 }
 
 h2{
-    font-size: 50px;
-    text-decoration: underline;
-    text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+  text-align: center;
 }
 
 button{
-    border-radius: 20px;
-    margin-right: 1rem;
+  border-radius: 20px;
+  margin-right: 1rem;
+  padding: 10px 30px;
+  font-size: 50px;
+}
+
+button:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+button:active{
+  font-size: 45px;
+  text-decoration: underline
 }
 
 #AddButton{
-  margin-left: 30px;
-  border-style: none;
-  padding: 10px 30px;
-  color:#FFFFFF;
-  font-size: 50px;
-  background-color: #2C698D;
+margin-left: 30px;
+border-style: none;
+color:#FFFFFF;
+background-color: #2C698D;
 }
 
 input{
@@ -35,28 +45,24 @@ font-size: 55px;
 }
 
 .menu{
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 ul{
-    justify-content: center;
-    font-size: 55px;
-    display: block;
-    text-align: center;
+  justify-content: center;
+  font-size: 55px;
+  display: block;
+  text-align: center;
 }
 
 li{
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #clear{
-    background-color: #272643;
-    color: #FFFFFF;
-    font-size: 50px;
-    border-style: none;
+  background-color: #272643;
+  color: #FFFFFF;
+  border-style: none;
 }
-
-
-
