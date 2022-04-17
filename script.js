@@ -1,16 +1,4 @@
-const quotes=["Don't ever give up!",
-"You can overcome anything!",
-"The sky is the limit!",
-"You can achieve anything if you put in the work!",
-"It's hard at first but it gets easier if you keep going",
-"Don't be afraid of challeneg!",
-"Make sure you stretch before taking on hard tasks",
-"Don't compare yourself to others!",
-"Don't let no one stopping you achieving your goals!",
-"Every small step counts",
-"Keep going even if it feels impossible!",
-"You got this!",
-]
+
 
 const AddButton=document.getElementById('AddButton');
 const item=document.getElementById('item')
